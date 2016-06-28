@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Laikipia Schools</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+		<link rel="stylesheet" type="text/css" href="css/own_style.css">
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+		<script src="js/leaflet-hash.js"></script>
+		<script src="js/Autolinker.min.js"></script>
+	</head>
+	<body>
+		<div id="map"></div>
+		<input id="slide" type="range" min="0" max="1" step="0.1" value="1" onchange="updateOpacity(this.value)">
+		<script src="data/exp_LaikipiaSchools.js"></script>
+		<script src="data/exp_LaikipiaCountylaikipiaCountyPolygon.js"></script>
+		<script>
+		var map = L.map('map', {
+			zoomControl:true, maxZoom:19
+		}).fitBounds([[-0.320542281777,35.7617596174],[0.910691861622,37.8595630146]]);
+		var hash = new L.Hash(map);
+		var additional_attrib = 'created by <a href="https://twitter.com/oumaofficial" target ="_blank">Leonard Ouma</a> of <a href="http://www.mapnovate.com" target ="_blank">Mapnovate</a><br>';
+		var feature_group = new L.featureGroup([]);
+		var raster_group = new L.LayerGroup([]);
+		var basemap_0 = L.tileLayer('http://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png', { 
+			attribution: additional_attrib + '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+		});	
+		basemap_0.addTo(map);	
+		var layerOrder=new Array();
+		function pop_LaikipiaCountylaikipiaCountyPolygon(feature, layer) {					
+			var popupContent = '<table><tr><th scope="row">CONST_CODE</th><td>' + Autolinker.link(String(feature.properties['CONST_CODE'])) + '</td></tr><tr><th scope="row">Shape_Area</th><td>' + Autolinker.link(String(feature.properties['Shape_Area'])) + '</td></tr><tr><th scope="row">OBJECTID_1</th><td>' + Autolinker.link(String(feature.properties['OBJECTID_1'])) + '</td></tr><tr><th scope="row">NAME</th><td>' + Autolinker.link(String(feature.properties['NAME'])) + '</td></tr><tr><th scope="row">OBJECTID</th><td>' + Autolinker.link(String(feature.properties['OBJECTID'])) + '</td></tr><tr><th scope="row">CONSTITUEN</th><td>' + Autolinker.link(String(feature.properties['CONSTITUEN'])) + '</td></tr><tr><th scope="row">COUNTY_ASS</th><td>' + Autolinker.link(String(feature.properties['COUNTY_ASS'])) + '</td></tr><tr><th scope="row">SPOILT</th><td>' + Autolinker.link(String(feature.properties['SPOILT'])) + '</td></tr><tr><th scope="row">COUNTY_A_1</th><td>' + Autolinker.link(String(feature.properties['COUNTY_A_1'])) + '</td></tr><tr><th scope="row">REJECTED</th><td>' + Autolinker.link(String(feature.properties['REJECTED'])) + '</td></tr><tr><th scope="row">REPORTED</th><td>' + Autolinker.link(String(feature.properties['REPORTED'])) + '</td></tr><tr><th scope="row">SPOILT_VAL</th><td>' + Autolinker.link(String(feature.properties['SPOILT_VAL'])) + '</td></tr><tr><th scope="row">VALID</th><td>' + Autolinker.link(String(feature.properties['VALID'])) + '</td></tr><tr><th scope="row">DISPUTED</th><td>' + Autolinker.link(String(feature.properties['DISPUTED'])) + '</td></tr><tr><th scope="row">RESULT</th><td>' + Autolinker.link(String(feature.properties['RESULT'])) + '</td></tr><tr><th scope="row">COUNTY_COD</th><td>' + Autolinker.link(String(feature.properties['COUNTY_COD'])) + '</td></tr><tr><th scope="row">Shape_Leng</th><td>' + Autolinker.link(String(feature.properties['Shape_Leng'])) + '</td></tr><tr><th scope="row">COUNTY_NAM</th><td>' + Autolinker.link(String(feature.properties['COUNTY_NAM'])) + '</td></tr><tr><th scope="row">Shape_Le_1</th><td>' + Autolinker.link(String(feature.properties['Shape_Le_1'])) + '</td></tr><tr><th scope="row">REGISTERED</th><td>' + Autolinker.link(String(feature.properties['REGISTERED'])) + '</td></tr></table>';
+			layer.bindPopup(popupContent);
+		}
+
+		function doStyleLaikipiaCountylaikipiaCountyPolygon(feature) {
+			if (feature.properties.REPORTED >= 2.0 && feature.properties.REPORTED <= 5.42857142857) {
+				return {
+					color: '#e31a1c',
+					weight: '1.3',
+					fillColor: '#2c7bb6',
+					opacity: '1.0',
+					fillOpacity: '1.0',
+				}
+			}
+			if (feature.properties.REPORTED >= 5.42857142857 && feature.properties.REPORTED <= 8.85714285714) {
+				return {
+					color: '#e31a1c',
+					weight: '1.3',
+					fillColor: '#80b9d8',
+					opacity: '1.0',
+					fillOpacity: '1.0',
+				}
+			}
+			if (feature.properties.REPORTED >= 8.85714285714 && feature.properties.REPORTED <= 12.2857142857) {
+				return {
+					color: '#e31a1c',
+					weight: '1.3',
+					fillColor: '#c7e5db',
+					opacity: '1.0',
+					fillOpacity: '1.0',
+				}
+			}
+			if (feature.properties.REPORTED >= 12.2857142857 && feature.properties.REPORTED <= 15.7142857143) {
+				return {
+					color: '#e31a1c',
+					weight: '1.3',
+					fillColor: '#ffffbf',
+					opacity: '1.0',
+					fillOpacity: '1.0',
+				}
+			}
+			if (feature.properties.REPORTED >= 15.7142857143 && feature.properties.REPORTED <= 19.1428571429) {
+				return {
+					color: '#e31a1c',
+					weight: '1.3',
+					fillColor: '#fdc980',
+					opacity: '1.0',
+					fillOpacity: '1.0',
+				}
+			}
+			if (feature.properties.REPORTED >= 19.1428571429 && feature.properties.REPORTED <= 22.5714285714) {
+				return {
+					color: '#e31a1c',
+					weight: '1.3',
+					fillColor: '#f07c4a',
+					opacity: '1.0',
+					fillOpacity: '1.0',
+				}
+			}
+			if (feature.properties.REPORTED >= 22.5714285714 && feature.properties.REPORTED <= 26.0) {
+				return {
+					color: '#e31a1c',
+					weight: '1.3',
+					fillColor: '#d7191c',
+					opacity: '1.0',
+					fillOpacity: '1.0',
+				}
+			}
+		}
+		var exp_LaikipiaCountylaikipiaCountyPolygonJSON = new L.geoJson(exp_LaikipiaCountylaikipiaCountyPolygon,{
+			onEachFeature: pop_LaikipiaCountylaikipiaCountyPolygon,
+			style: doStyleLaikipiaCountylaikipiaCountyPolygon
+		});
+		//add comment sign to hide this layer on the map in the initial view.
+		feature_group.addLayer(exp_LaikipiaCountylaikipiaCountyPolygonJSON);
+		function pop_LaikipiaSchools(feature, layer) {					
+			var popupContent = '<table><tr><th scope="row">X</th><td>' + Autolinker.link(String(feature.properties['X'])) + '</td></tr><tr><th scope="row">Y</th><td>' + Autolinker.link(String(feature.properties['Y'])) + '</td></tr><tr><th scope="row">Sponsor</th><td>' + Autolinker.link(String(feature.properties['Sponsor'])) + '</td></tr><tr><th scope="row">County</th><td>' + Autolinker.link(String(feature.properties['County'])) + '</td></tr><tr><th scope="row">District</th><td>' + Autolinker.link(String(feature.properties['District'])) + '</td></tr><tr><th scope="row">Division</th><td>' + Autolinker.link(String(feature.properties['Division'])) + '</td></tr><tr><th scope="row">Location</th><td>' + Autolinker.link(String(feature.properties['Location'])) + '</td></tr><tr><th scope="row">Costituenc</th><td>' + Autolinker.link(String(feature.properties['Costituenc'])) + '</td></tr><tr><th scope="row">Plan_No</th><td>' + Autolinker.link(String(feature.properties['Plan_No'])) + '</td></tr><tr><th scope="row">Area</th><td>' + Autolinker.link(String(feature.properties['Area'])) + '</td></tr><tr><th scope="row">Original_O</th><td>' + Autolinker.link(String(feature.properties['Original_O'])) + '</td></tr><tr><th scope="row">Current_Ow</th><td>' + Autolinker.link(String(feature.properties['Current_Ow'])) + '</td></tr><tr><th scope="row">Title_Stat</th><td>' + Autolinker.link(String(feature.properties['Title_Stat'])) + '</td></tr><tr><th scope="row">Date_Issue</th><td>' + Autolinker.link(String(feature.properties['Date_Issue'])) + '</td></tr><tr><th scope="row">Name</th><td>' + Autolinker.link(String(feature.properties['Name'])) + '</td></tr></table>';
+			layer.bindPopup(popupContent);
+		}
+
+		var exp_LaikipiaSchoolsJSON = new L.geoJson(exp_LaikipiaSchools,{
+			onEachFeature: pop_LaikipiaSchools,
+			pointToLayer: function (feature, latlng) {  
+				return L.circleMarker(latlng, {
+					radius: 4.0,
+					fillColor: '#03911f',
+					color: '#000000',
+					weight: 1,
+					opacity: 1.0,
+					fillOpacity: 1.0
+				})
+			}
+		});
+		//add comment sign to hide this layer on the map in the initial view.
+		feature_group.addLayer(exp_LaikipiaSchoolsJSON);
+
+		feature_group.addTo(map);
+		var title = new L.Control();
+		title.onAdd = function (map) {
+			this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+			this.update();
+			return this._div;
+		};
+		title.update = function () {
+			this._div.innerHTML = '<h2>Laikipia Schools</h2>This is the subtitle'
+		};
+		title.addTo(map);
+	var baseMaps = {
+		'OSM Black & White': basemap_0
+	};
+		L.control.layers(baseMaps,{"LaikipiaSchools": exp_LaikipiaSchoolsJSON,"LaikipiaCountylaikipiaCountyPolygon": exp_LaikipiaCountylaikipiaCountyPolygonJSON},{collapsed:false}).addTo(map);
+		function updateOpacity(value) {
+	}
+		L.control.scale({options: {position: 'bottomleft',maxWidth: 100,metric: true,imperial: false,updateWhenIdle: false}}).addTo(map);
+	</script>
+</body>
+</html>
