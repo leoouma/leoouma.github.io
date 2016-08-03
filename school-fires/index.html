@@ -1,7 +1,7 @@
 <html>
     
 <head>
-    <title>Laikipa County Schools!</title>
+    <title>2016 Kenya School Fires</title>
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
     <link rel="stylesheet" href="MarkerCluster.css"/>
     <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
@@ -86,7 +86,7 @@
            var shule = L.geoJson(data,{
                 pointToLayer: function(feature,latlng){
                     var marker = L.marker(latlng,{icon: schIcon});
-                    marker.bindPopup(feature.properties.Name + '<br/>' + feature.properties.Sponsor);
+                    marker.bindPopup(feature.properties.Name + '<br/>' + feature.properties.Date + '<br/>' + feature.properties.Details);
                     return marker;
                 }
             });
@@ -103,7 +103,7 @@
 			return this._div;
 		};
 		title.update = function () {
-			this._div.innerHTML = '<h2>Laikipia County Schools</h2>A map showing the various primary schools in Laikipia County'
+			this._div.innerHTML = '<h2>2016 Kenya School Fires</h2>This Map Series highlights Kenyan Secondary Schools affected by student unrest leading to either arson or attempted arson and the counties in which the schools are located. There have been more than 100 cases of unrest as from January 2016 to 25th July 2016. These cases are characterized by massive destruction and loss of valuable school and personal student property with 119 arson cases and 22 arson attempts reported. This has led to the arrest of over 100 students who participated in the chaos. This is a steep increase compared to the 92 cases of arson reported in 2015.'
 		};
 		title.addTo(map);
 	var baseMaps = {
@@ -112,7 +112,7 @@
 	};
     var overlays = {
         'Laikipia Schools': clusters,
-        'Laikipia County': polygon
+        'counties': polygon
         
     };        
 		L.control.layers(baseMaps, overlays).addTo(map);
