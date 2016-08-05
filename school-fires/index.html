@@ -59,12 +59,12 @@
                 style: function(feature){
                     var fillColor,
                         density = feature.properties.Incidents;
-                    if (density > 15 ) fillColor = "#d7191c";
-                    else if (density > 10) fillColor = "#f07c4a";
-                    else if (density > 6) fillColor = "#fdc980";
-                    else if (density > 4) fillColor = "#ffffbf";
-                    else if (density > 2) fillColor = "#c7e5db";
-                    else if (density > 1) fillColor = "#80b9d8";
+                    if (density > 15 ) fillColor = "#b30000";
+                    else if (density > 10) fillColor = "#e34a33";
+                    else if (density > 6) fillColor = "#fc8d59";
+                    else if (density > 4) fillColor = "#fdbb84";
+                    else if (density > 2) fillColor = "#fdd49e";
+                    else if (density > 1) fillColor = "#fef0d9";
                     else fillColor = "#f7f7f7"; // no data
                     return { color: "#999", weight: 1, fillColor: fillColor, fillOpacity:.6 };
                 },
