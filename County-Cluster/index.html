@@ -109,7 +109,7 @@
 	    		fillOpacity:.9
 	    	};
 	    }
-	    // make wards highlighted visually, define event listener
+	    // make counties highlighted visually, define event listener
 	    function highlightFeature(e) {
 	    	var layer = e.target;
 	    	layer.setStyle({
@@ -149,11 +149,11 @@
 			maxZoom:20, minZoom:5, attribution:'@leoouma &copy; <a href="https://mapnovate.com/">Mapnovate</a>'
 		});
 		// define a map container
-		var map = L.map('map',{center:[-0.18, 37.9], zoom:5, layers:[tiles, polls, county]}); //omitting pollgrad means it wont be automatically checked upon loading
+		var map = L.map('map',{center:[-0.18, 37.9], zoom:5, layers:[tiles, county]}); //omitting pollgrad means it wont be automatically checked upon loading
 		map.fitBounds(countx.getBounds());
 		// define layers and add them to layer control
 		var baseMap = {"Streets": tiles};
-		var overLays = {"EMR (Clustered)": polls, "EMR (Proportional)": pollgrad, "EMR (Heatmap)":heatLayer, "County": county};
+		var overLays = {"County": county};
 	    L.control.layers(baseMap, overLays).addTo(map);
 
 	    // style the map to return properties of highlighted feature
@@ -165,23 +165,26 @@
 	    };
 	    // pass feature property
 	    info.update = function(props){
-	    	this._div.innerHTML = '<h4> Registered Voters per County</h4>'+ (props ? '<b>' + props.FIRST_COUN +'</b><br />' + '<b>'+(props.REG_VOTERS).toLocaleString()+'</b>':'Hover over a County for Details');
+	    	this._div.innerHTML = '<h4> Registered Voters per County</h4>'+ (props ? '<b>' + props.COUNTY +'</b><br />' + '<b>'+(props.REG_VOTERS).toLocaleString()+'</b>':'Hover over a County for Details');
 	    };
 	    info.addTo(map); 
 	    // addig legend to map (county)
-	    var legend = L.control({position: 'bottomleft'});
+	    var legend = L.control({position: 'bottomright'});
 	    legend.onAdd = function (map) {
 	    	var div = L.DomUtil.create('div', 'info legend'),
-	    	grades = [1,2,3,4], labels = [];
-	    	for (var i=0; i < grades.length; i++){
-	    		div.innerHTML += '<i style="background:'+getColor(grades[i]+1)+'"></i>'+grades[i]+(grades[i+1]?'&ndash;'+'<'+grades[i+1]+'<br>':'-5');
-	    	}
-	    	return div;
+	    	grades = [1,2,3,4], labels = ['<strong> Legend </strong>'];
+		    for (var i = 0; i < grades.length; i++) {
+		        div.innerHTML +=
+		            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+		            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+		    }
+
+		    return div;
 	    };	   
 		legend.addTo(map);
 
 		// addig legend to map (emr sites)
-	    var legend2 = L.control({position: 'bottomright'});
+/*	    var legend2 = L.control({position: 'bottomright'});
 	    legend2.onAdd = function (map) {
 	    	var div = L.DomUtil.create('div', 'info legend');
 	    	categories = ['Active', 'Inactive', 'Partially active', 'No data'];
@@ -190,7 +193,7 @@
 	    	}
 	    	return div;
 	    };	   
-		legend2.addTo(map);	
+		legend2.addTo(map);	*/
 		
 	</script>
 </body>
