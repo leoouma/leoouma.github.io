@@ -194,7 +194,7 @@
 
         // When a menu item is clicked, animate the map to center
         // its associated locale and open its popup.
-        map.setView(locale.getLatLng(), 16);
+        map.setView(locale.getLatLng(), 15);
         locale.openPopup();
         return false;
       };
@@ -202,7 +202,7 @@
       // Marker interaction
       locale.on('click', function(e) {
           // 1. center the map on the selected marker.
-          map.setView(locale.getLatLng(), 17);
+          map.setView(locale.getLatLng(), 15);
 
           // 2. Set active the markers associated listing.
           setActive(listing);
