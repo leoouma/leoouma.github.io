@@ -1,0 +1,4688 @@
+{
+    "type": "Topology",
+    "objects": {
+        "collection": {
+            "type": "GeometryCollection",
+            "crs": {
+                "type": "name",
+                "properties": {
+                    "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+                }
+            },
+            "geometries": [
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4209,
+                        4116
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3667,
+                        4257
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4605,
+                        4604
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4832,
+                        4603
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4344,
+                        4232
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4260,
+                        4147
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4298,
+                        4454
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2982,
+                        4102
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4744,
+                        4106
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4718,
+                        4657
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4718,
+                        4657
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4271,
+                        3925
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4533,
+                        4218
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4275,
+                        4214
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4088,
+                        4344
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4384,
+                        4647
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4816,
+                        4698
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4275,
+                        4796
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4232,
+                        4306
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3934,
+                        3868
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3751,
+                        4093
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3771,
+                        3979
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3873,
+                        3855
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4533,
+                        4219
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4446,
+                        4218
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4134,
+                        4151
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4139,
+                        4854
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3218,
+                        5025
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3211,
+                        5020
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4640,
+                        4672
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3878,
+                        5059
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4484,
+                        4406
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4508,
+                        3975
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3722,
+                        5169
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4135,
+                        4853
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3619,
+                        5160
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3710,
+                        3931
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3749,
+                        4076
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4361,
+                        4761
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3672,
+                        4939
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4462,
+                        4240
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3583,
+                        5004
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3283,
+                        5180
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4169,
+                        3879
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3775,
+                        3982
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3603,
+                        4848
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7610,
+                        965
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        6596,
+                        1091
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8289,
+                        3519
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8014,
+                        711
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7972,
+                        687
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8060,
+                        718
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8028,
+                        737
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7554,
+                        976
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        9999,
+                        2918
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8601,
+                        2679
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8070,
+                        784
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8608,
+                        1615
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8068,
+                        787
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5785,
+                        1407
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8493,
+                        3544
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8014,
+                        931
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8005,
+                        700
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7893,
+                        737
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        6556,
+                        951
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7946,
+                        658
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7493,
+                        586
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5215,
+                        1424
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8008,
+                        694
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8060,
+                        718
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        9715,
+                        2671
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        9715,
+                        2671
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7952,
+                        648
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8060,
+                        718
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7230,
+                        4561
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8553,
+                        1574
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        6347,
+                        1756
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8201,
+                        979
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        6664,
+                        1264
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7871,
+                        648
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8060,
+                        718
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7933,
+                        736
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7936,
+                        739
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8060,
+                        718
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        6372,
+                        1371
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7909,
+                        938
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8008,
+                        711
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        6445,
+                        1426
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        9065,
+                        2548
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        9423,
+                        2544
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8060,
+                        718
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7974,
+                        676
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8610,
+                        1615
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8210,
+                        1030
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8060,
+                        718
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        6178,
+                        1294
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5877,
+                        1394
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8733,
+                        2521
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5282,
+                        1650
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8721,
+                        2525
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        9511,
+                        2719
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8279,
+                        1242
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        9710,
+                        2679
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7943,
+                        615
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        6163,
+                        1291
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8060,
+                        718
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7981,
+                        696
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7362,
+                        0
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8186,
+                        944
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8040,
+                        720
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        6141,
+                        1404
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        6255,
+                        1309
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        6171,
+                        1411
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8102,
+                        820
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3975,
+                        3652
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5771,
+                        2314
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4833,
+                        4605
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4665,
+                        4572
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4596,
+                        4239
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3975,
+                        3651
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3975,
+                        3652
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4635,
+                        3520
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5912,
+                        2908
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4445,
+                        4170
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5264,
+                        3378
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3975,
+                        3651
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4921,
+                        4794
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5288,
+                        3078
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4702,
+                        3574
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3975,
+                        3652
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4595,
+                        4278
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4563,
+                        4209
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5128,
+                        4812
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4778,
+                        4475
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4542,
+                        3350
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4773,
+                        3221
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5142,
+                        5022
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5049,
+                        3400
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4972,
+                        4074
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4499,
+                        3096
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4852,
+                        4652
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4542,
+                        3350
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4644,
+                        3517
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3975,
+                        3652
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4776,
+                        4569
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5844,
+                        2568
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4542,
+                        3350
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4542,
+                        3350
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4542,
+                        3350
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4618,
+                        3685
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4514,
+                        4182
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4542,
+                        3350
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4912,
+                        3265
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5681,
+                        3623
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3975,
+                        3652
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4542,
+                        3350
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5956,
+                        3146
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4669,
+                        3364
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5103,
+                        4484
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        6234,
+                        4503
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4542,
+                        3350
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5686,
+                        4324
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5734,
+                        2389
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4765,
+                        4456
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        6165,
+                        4036
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4542,
+                        3350
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4400,
+                        4122
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4798,
+                        2964
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5932,
+                        4542
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4720,
+                        4413
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5168,
+                        5280
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4653,
+                        3629
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5973,
+                        4775
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        6397,
+                        4325
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4657,
+                        3510
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5552,
+                        4140
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        6005,
+                        3604
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4213,
+                        3778
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4052,
+                        3783
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3971,
+                        3767
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4133,
+                        3822
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4095,
+                        3777
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4115,
+                        3739
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4069,
+                        3817
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3890,
+                        3726
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3991,
+                        3772
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3985,
+                        3774
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4095,
+                        3777
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4009,
+                        3778
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3971,
+                        3767
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3968,
+                        3769
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4000,
+                        3775
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3971,
+                        3767
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4099,
+                        3790
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4072,
+                        3819
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4089,
+                        3749
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4052,
+                        3783
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4000,
+                        3775
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4009,
+                        3752
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4072,
+                        3819
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        931,
+                        4745
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        837,
+                        4217
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        367,
+                        4064
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1416,
+                        4506
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        741,
+                        4013
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        826,
+                        4102
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        834,
+                        4311
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1468,
+                        4632
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1405,
+                        4458
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1405,
+                        4458
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1011,
+                        4210
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1011,
+                        4210
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1464,
+                        4425
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1357,
+                        4262
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1215,
+                        4476
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        461,
+                        4370
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1412,
+                        4349
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        754,
+                        4741
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        730,
+                        4626
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1280,
+                        4350
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1154,
+                        4497
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        763,
+                        3838
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1307,
+                        4752
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1195,
+                        5176
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        338,
+                        5137
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        862,
+                        4742
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1273,
+                        4613
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1001,
+                        3814
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        998,
+                        4809
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1108,
+                        4227
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1409,
+                        4354
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1272,
+                        4401
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1228,
+                        4498
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1508,
+                        4369
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1508,
+                        4369
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        751,
+                        4735
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1202,
+                        4211
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1169,
+                        5102
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1085,
+                        5184
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        552,
+                        4657
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1174,
+                        4832
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        649,
+                        4900
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        649,
+                        4900
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        967,
+                        3901
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        940,
+                        4464
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        365,
+                        4244
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1203,
+                        4207
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        730,
+                        4626
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1256,
+                        4537
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        858,
+                        5309
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        816,
+                        4492
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1402,
+                        4259
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1096,
+                        4516
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        277,
+                        4129
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        730,
+                        4626
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1181,
+                        5137
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        955,
+                        4448
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        923,
+                        5114
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1145,
+                        4825
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        480,
+                        4863
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1169,
+                        5102
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        603,
+                        4404
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        897,
+                        4638
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        967,
+                        4318
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        967,
+                        4318
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        967,
+                        4318
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        967,
+                        4318
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        802,
+                        4672
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1002,
+                        3816
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1315,
+                        4222
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        505,
+                        5024
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        586,
+                        4646
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        397,
+                        4985
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        397,
+                        4985
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1582,
+                        5044
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1324,
+                        4228
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1364,
+                        4639
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        576,
+                        3973
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1386,
+                        4598
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1386,
+                        4598
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1444,
+                        4693
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1272,
+                        4460
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1547,
+                        5059
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1154,
+                        4263
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1413,
+                        4348
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1221,
+                        4678
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        941,
+                        5094
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        914,
+                        4689
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        730,
+                        4626
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1302,
+                        4646
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        957,
+                        3976
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1165,
+                        4472
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1169,
+                        4465
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1111,
+                        4657
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        631,
+                        4226
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        734,
+                        4597
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1111,
+                        4657
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1138,
+                        5106
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        929,
+                        4550
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        902,
+                        4551
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        902,
+                        4551
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        902,
+                        4551
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        828,
+                        4550
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1383,
+                        4414
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        663,
+                        4037
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        956,
+                        4781
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        835,
+                        4222
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1770,
+                        5111
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        318,
+                        4775
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        0,
+                        4711
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        806,
+                        4156
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        892,
+                        4832
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2685,
+                        3993
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1883,
+                        4807
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2977,
+                        4905
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3986,
+                        2887
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1954,
+                        4347
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1678,
+                        4171
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1692,
+                        5370
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1723,
+                        4652
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2977,
+                        4905
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3817,
+                        3727
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5143,
+                        1867
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2640,
+                        5204
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2644,
+                        5242
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2537,
+                        3925
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2923,
+                        5034
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1952,
+                        5074
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2977,
+                        4905
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4195,
+                        3568
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1883,
+                        4807
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4064,
+                        3332
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1883,
+                        4807
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4001,
+                        3172
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3954,
+                        3142
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1755,
+                        4517
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1883,
+                        4807
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5011,
+                        2070
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2125,
+                        5011
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1883,
+                        4807
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1821,
+                        4191
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1883,
+                        4807
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4208,
+                        3576
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1933,
+                        4536
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4079,
+                        5073
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2977,
+                        4905
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4975,
+                        1947
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2686,
+                        3993
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2307,
+                        5027
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1910,
+                        4339
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1748,
+                        4276
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4197,
+                        5218
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4452,
+                        2866
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4188,
+                        5167
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2042,
+                        4344
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1863,
+                        4531
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2977,
+                        4905
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1883,
+                        4807
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1883,
+                        4807
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3489,
+                        4418
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2977,
+                        4905
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3975,
+                        2374
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1883,
+                        4807
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2682,
+                        3495
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1615,
+                        4282
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3680,
+                        5125
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2977,
+                        4905
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1612,
+                        4000
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1659,
+                        4312
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2977,
+                        4905
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1883,
+                        4807
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3919,
+                        3667
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2977,
+                        4905
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5246,
+                        1795
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2977,
+                        4905
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1901,
+                        4193
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1883,
+                        4807
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5100,
+                        2804
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1776,
+                        4220
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1883,
+                        4807
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1883,
+                        4807
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1634,
+                        4446
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3832,
+                        3619
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2977,
+                        4905
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2977,
+                        4905
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4276,
+                        5192
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        902,
+                        5211
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        888,
+                        5207
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1170,
+                        5112
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1445,
+                        4527
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4624,
+                        4008
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4754,
+                        3695
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4542,
+                        3350
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4542,
+                        3350
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4744,
+                        4446
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4776,
+                        4513
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5167,
+                        4577
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8473,
+                        1532
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4270,
+                        3920
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        769,
+                        4509
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4318,
+                        5058
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        902,
+                        4551
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        730,
+                        4626
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4933,
+                        2893
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5664,
+                        3885
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4808,
+                        3039
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4151,
+                        4868
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1883,
+                        4807
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3971,
+                        3767
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1883,
+                        4807
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2113,
+                        3523
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3971,
+                        3767
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8010,
+                        695
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4040,
+                        3754
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7985,
+                        691
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2685,
+                        3993
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3612,
+                        5161
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5218,
+                        5299
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5338,
+                        5258
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5151,
+                        5291
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5170,
+                        5283
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4252,
+                        3958
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5168,
+                        5280
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4291,
+                        3981
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4344,
+                        4029
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5168,
+                        5280
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3975,
+                        3652
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5168,
+                        5280
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3975,
+                        3652
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5168,
+                        5280
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5652,
+                        7827
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5184,
+                        5246
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3975,
+                        3652
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7127,
+                        9161
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5168,
+                        5280
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4144,
+                        3867
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4186,
+                        3901
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        6558,
+                        9207
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4217,
+                        3931
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4366,
+                        4077
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        383,
+                        5561
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        440,
+                        5453
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        836,
+                        5276
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        836,
+                        5276
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1169,
+                        5102
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        315,
+                        5462
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        596,
+                        5282
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        361,
+                        5384
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        221,
+                        5352
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        434,
+                        5549
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        493,
+                        5424
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        408,
+                        5511
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        269,
+                        5393
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1333,
+                        5902
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1333,
+                        5902
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        453,
+                        5545
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        637,
+                        4893
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1745,
+                        5347
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1190,
+                        6573
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2185,
+                        6179
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2840,
+                        6329
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1763,
+                        6680
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2271,
+                        5433
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2825,
+                        5347
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1384,
+                        5809
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1792,
+                        6319
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2495,
+                        5276
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2721,
+                        5384
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1287,
+                        6432
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1261,
+                        9410
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2518,
+                        5767
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2588,
+                        5917
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1871,
+                        6579
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1632,
+                        5902
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1632,
+                        5902
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1721,
+                        5419
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1864,
+                        5265
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1871,
+                        6579
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1511,
+                        5683
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2303,
+                        7814
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1292,
+                        9382
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2694,
+                        9178
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2273,
+                        5443
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1937,
+                        6398
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1654,
+                        6610
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2847,
+                        5431
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1572,
+                        5574
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2265,
+                        6323
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1496,
+                        5302
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2392,
+                        7899
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1367,
+                        5272
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1415,
+                        5271
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2522,
+                        5769
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3014,
+                        5236
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1744,
+                        5335
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1518,
+                        6387
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2322,
+                        8721
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2392,
+                        7899
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        576,
+                        9935
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2536,
+                        9999
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        627,
+                        9931
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1854,
+                        8464
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1786,
+                        7933
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2854,
+                        5751
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2494,
+                        5284
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1914,
+                        5230
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2392,
+                        7895
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1542,
+                        8410
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4372,
+                        5247
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1604,
+                        9720
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4213,
+                        5212
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3319,
+                        5535
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3404,
+                        5417
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1979,
+                        6834
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2029,
+                        5700
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3621,
+                        5528
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1518,
+                        6387
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1289,
+                        5298
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2137,
+                        6888
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3407,
+                        5676
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1197,
+                        6144
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2279,
+                        8784
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2326,
+                        8705
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2977,
+                        4905
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2610,
+                        5585
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2325,
+                        5596
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2243,
+                        5295
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2237,
+                        5295
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2492,
+                        5277
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2400,
+                        6584
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        284,
+                        5552
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        273,
+                        5781
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        472,
+                        5853
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1144,
+                        5532
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1160,
+                        5388
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        956,
+                        5469
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        732,
+                        5839
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        874,
+                        5864
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1108,
+                        5634
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        779,
+                        5457
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1343,
+                        5961
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        736,
+                        6123
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        897,
+                        6046
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        897,
+                        6046
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        975,
+                        5312
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        874,
+                        5864
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        965,
+                        5266
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        956,
+                        5185
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1141,
+                        5526
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1210,
+                        5305
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1041,
+                        5363
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1256,
+                        5647
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1250,
+                        5786
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        871,
+                        5944
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1149,
+                        5531
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1110,
+                        5369
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        922,
+                        5413
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1099,
+                        5454
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1085,
+                        6108
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1667,
+                        6102
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1636,
+                        6012
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        382,
+                        5876
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        382,
+                        5876
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        382,
+                        5876
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1452,
+                        5935
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        960,
+                        5562
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1010,
+                        5243
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        575,
+                        5757
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        961,
+                        5562
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        678,
+                        5988
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1282,
+                        5726
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        722,
+                        5404
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1214,
+                        5857
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        966,
+                        5450
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1646,
+                        6148
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1460,
+                        6035
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1486,
+                        6048
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1097,
+                        5314
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        766,
+                        5361
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        756,
+                        5657
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1131,
+                        5542
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1333,
+                        6070
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        829,
+                        5385
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        630,
+                        5850
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        230,
+                        5534
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1145,
+                        6142
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1045,
+                        5687
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1475,
+                        6168
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1189,
+                        5359
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1280,
+                        5313
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1245,
+                        5520
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1146,
+                        5532
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        843,
+                        5428
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1224,
+                        5580
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        887,
+                        5444
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1362,
+                        5400
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        833,
+                        5468
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1113,
+                        5445
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        117,
+                        5473
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        799,
+                        6069
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1103,
+                        5230
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1441,
+                        6091
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1099,
+                        5312
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1088,
+                        5267
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5653,
+                        7841
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        5416,
+                        7028
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4081,
+                        3825
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2916,
+                        7419
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1283,
+                        5367
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        794,
+                        5976
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        994,
+                        5552
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        823,
+                        5348
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        578,
+                        5302
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        872,
+                        5882
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        796,
+                        5269
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1150,
+                        5502
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1150,
+                        5502
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4092,
+                        3770
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4095,
+                        3777
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4366,
+                        4054
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        827,
+                        5325
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        788,
+                        4437
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2977,
+                        4905
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1305,
+                        4495
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1621,
+                        4663
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1835,
+                        5433
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1504,
+                        6365
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4542,
+                        3350
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3919,
+                        3804
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4099,
+                        3790
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        730,
+                        4626
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        730,
+                        4626
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4064,
+                        3805
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3971,
+                        3767
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4456,
+                        3500
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4819,
+                        3695
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1894,
+                        5538
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4216,
+                        4551
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4136,
+                        3856
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3970,
+                        3768
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        3848,
+                        6454
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2977,
+                        4905
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1317,
+                        4098
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4072,
+                        3819
+                    ]
+                }
+            ]
+        }
+    },
+    "arcs": [],
+    "bbox": [
+        33.93415525428656,
+        -4.66212,
+        41.11075,
+        4.26239
+    ],
+    "transform": {
+        "scale": [
+            0.0007177312476961142,
+            0.0008925402540254024
+        ],
+        "translate": [
+            33.93415525428656,
+            -4.66212
+        ]
+    }
+}
