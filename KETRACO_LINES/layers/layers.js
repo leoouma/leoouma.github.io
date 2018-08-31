@@ -1,7 +1,7 @@
 var wms_layers = [];
 
         var lyr_MapSurferOSMRoads_0 = new ol.layer.Tile({
-            'title': 'OSM Roads',
+            'title': 'MapSurferOSMRoads_0',
             'type': 'base',
             'opacity': 1.000000,
             
