@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/MarkerCluster.css">
+        <link rel="stylesheet" href="css/MarkerCluster.Default.css">
+        <link rel="stylesheet" href="css/leaflet-measure.css">
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet-svg-shape-markers.min.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="js/leaflet-measure.js"></script>
+        <script src="js/leaflet.markercluster.js"></script>
+        <script src="data/KENYA_1.js"></script>
+        <script src="data/500MLAPSETCORRIDOR_2.js"></script>
+        <script src="data/KETRACO_LINES_3.js"></script>
+        <script src="data/220kvtransmission_MAX_4.js"></script>
+        <script src="data/132kvtransmission_MAX_5.js"></script>
+        <script src="data/Tullow_Pipeline_6.js"></script>
+        <script src="data/KETRACO_SUBSTATIONS_7.js"></script>
+        <script src="data/PowerInput_AGI_8.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:6
+        }).fitBounds([[-5.040856491730844,30.11618703034108],[5.5977848175943095,44.43414536371798]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
+        var measureControl = new L.Control.Measure({
+            position: 'topleft',
+            primaryLengthUnit: 'meters',
+            secondaryLengthUnit: 'kilometers',
+            primaryAreaUnit: 'sqmeters',
+            secondaryAreaUnit: 'hectares'
+        });
+        measureControl.addTo(map);
+        document.getElementsByClassName('leaflet-control-measure-toggle')[0]
+        .innerHTML = '';
+        document.getElementsByClassName('leaflet-control-measure-toggle')[0]
+        .className += ' fas fa-ruler';
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        var overlay_OpenTopoMap_0 = L.tileLayer('https://a.tile.opentopomap.org/{z}/{x}/{y}.png', {
+            opacity: 1.0
+        });
+        overlay_OpenTopoMap_0.addTo(map);
+        map.addLayer(overlay_OpenTopoMap_0);
+        function pop_KENYA_1(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['OBJECTID'] !== null ? Autolinker.link(String(feature.properties['OBJECTID'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['AREA'] !== null ? Autolinker.link(String(feature.properties['AREA'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['PERIMETER'] !== null ? Autolinker.link(String(feature.properties['PERIMETER'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['COUNTY3_'] !== null ? Autolinker.link(String(feature.properties['COUNTY3_'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['COUNTY3_ID'] !== null ? Autolinker.link(String(feature.properties['COUNTY3_ID'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['COUNTY'] !== null ? Autolinker.link(String(feature.properties['COUNTY'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Shape_Leng'] !== null ? Autolinker.link(String(feature.properties['Shape_Leng'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Shape_Area'] !== null ? Autolinker.link(String(feature.properties['Shape_Area'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_KENYA_1_0() {
+            return {
+                pane: 'pane_KENYA_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(145,82,45,0.0)',
+            }
+        }
+        map.createPane('pane_KENYA_1');
+        map.getPane('pane_KENYA_1').style.zIndex = 401;
+        map.getPane('pane_KENYA_1').style['mix-blend-mode'] = 'normal';
+        var layer_KENYA_1 = new L.geoJson(json_KENYA_1, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_KENYA_1',
+            onEachFeature: pop_KENYA_1,
+            style: style_KENYA_1_0,
+        });
+        bounds_group.addLayer(layer_KENYA_1);
+        map.addLayer(layer_KENYA_1);
+        function pop_500MLAPSETCORRIDOR_2(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Name'] !== null ? Autolinker.link(String(feature.properties['Name'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['descriptio'] !== null ? Autolinker.link(String(feature.properties['descriptio'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['timestamp'] !== null ? Autolinker.link(String(feature.properties['timestamp'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['begin'] !== null ? Autolinker.link(String(feature.properties['begin'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['end'] !== null ? Autolinker.link(String(feature.properties['end'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['altitudeMo'] !== null ? Autolinker.link(String(feature.properties['altitudeMo'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['tessellate'] !== null ? Autolinker.link(String(feature.properties['tessellate'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['extrude'] !== null ? Autolinker.link(String(feature.properties['extrude'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['visibility'] !== null ? Autolinker.link(String(feature.properties['visibility'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['drawOrder'] !== null ? Autolinker.link(String(feature.properties['drawOrder'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['icon'] !== null ? Autolinker.link(String(feature.properties['icon'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_500MLAPSETCORRIDOR_2_0() {
+            return {
+                pane: 'pane_500MLAPSETCORRIDOR_2',
+                opacity: 1,
+                color: 'rgba(146,18,18,1.0)',
+                dashArray: '',
+                lineCap: 'round',
+                lineJoin: 'round',
+                weight: 3.0,
+                fillOpacity: 0,
+            }
+        }
+        map.createPane('pane_500MLAPSETCORRIDOR_2');
+        map.getPane('pane_500MLAPSETCORRIDOR_2').style.zIndex = 402;
+        map.getPane('pane_500MLAPSETCORRIDOR_2').style['mix-blend-mode'] = 'normal';
+        var layer_500MLAPSETCORRIDOR_2 = new L.geoJson(json_500MLAPSETCORRIDOR_2, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_500MLAPSETCORRIDOR_2',
+            onEachFeature: pop_500MLAPSETCORRIDOR_2,
+            style: style_500MLAPSETCORRIDOR_2_0,
+        });
+        bounds_group.addLayer(layer_500MLAPSETCORRIDOR_2);
+        map.addLayer(layer_500MLAPSETCORRIDOR_2);
+        function pop_KETRACO_LINES_3(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['OBJECTID'] !== null ? Autolinker.link(String(feature.properties['OBJECTID'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['LINE_NAME'] !== null ? Autolinker.link(String(feature.properties['LINE_NAME'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Length'] !== null ? Autolinker.link(String(feature.properties['Length'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['STATUS'] !== null ? Autolinker.link(String(feature.properties['STATUS'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['VOLTAGE_1'] !== null ? Autolinker.link(String(feature.properties['VOLTAGE_1'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['COMM_DATE'] !== null ? Autolinker.link(String(feature.properties['COMM_DATE'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_KETRACO_LINES_3_0(feature) {
+            switch(String(feature.properties['VOLTAGE_1'])) {
+                case '132kV':
+                    return {
+                pane: 'pane_KETRACO_LINES_3',
+                opacity: 1,
+                color: 'rgba(31,214,255,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 2.0,
+                fillOpacity: 0,
+            }
+                    break;
+                case '220kV':
+                    return {
+                pane: 'pane_KETRACO_LINES_3',
+                opacity: 1,
+                color: 'rgba(72,111,229,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 2.0,
+                fillOpacity: 0,
+            }
+                    break;
+                case '400kV':
+                    return {
+                pane: 'pane_KETRACO_LINES_3',
+                opacity: 1,
+                color: 'rgba(255,76,31,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 2.0,
+                fillOpacity: 0,
+            }
+                    break;
+                case '500HVDC':
+                    return {
+                pane: 'pane_KETRACO_LINES_3',
+                opacity: 1,
+                color: 'rgba(204,82,105,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 2.0,
+                fillOpacity: 0,
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_KETRACO_LINES_3');
+        map.getPane('pane_KETRACO_LINES_3').style.zIndex = 403;
+        map.getPane('pane_KETRACO_LINES_3').style['mix-blend-mode'] = 'normal';
+        var layer_KETRACO_LINES_3 = new L.geoJson(json_KETRACO_LINES_3, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_KETRACO_LINES_3',
+            onEachFeature: pop_KETRACO_LINES_3,
+            style: style_KETRACO_LINES_3_0,
+        });
+        bounds_group.addLayer(layer_KETRACO_LINES_3);
+        map.addLayer(layer_KETRACO_LINES_3);
+        function pop_220kvtransmission_MAX_4(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['ENTITY'] !== null ? Autolinker.link(String(feature.properties['ENTITY'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['HANDLE'] !== null ? Autolinker.link(String(feature.properties['HANDLE'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['LAYER'] !== null ? Autolinker.link(String(feature.properties['LAYER'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['COLOR'] !== null ? Autolinker.link(String(feature.properties['COLOR'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['LINETYPE'] !== null ? Autolinker.link(String(feature.properties['LINETYPE'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['ELEVATION'] !== null ? Autolinker.link(String(feature.properties['ELEVATION'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['THICKNESS'] !== null ? Autolinker.link(String(feature.properties['THICKNESS'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['TEXT'] !== null ? Autolinker.link(String(feature.properties['TEXT'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_220kvtransmission_MAX_4_0() {
+            return {
+                pane: 'pane_220kvtransmission_MAX_4',
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 2.0,
+                fillOpacity: 0,
+            }
+        }
+        map.createPane('pane_220kvtransmission_MAX_4');
+        map.getPane('pane_220kvtransmission_MAX_4').style.zIndex = 404;
+        map.getPane('pane_220kvtransmission_MAX_4').style['mix-blend-mode'] = 'normal';
+        var layer_220kvtransmission_MAX_4 = new L.geoJson(json_220kvtransmission_MAX_4, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_220kvtransmission_MAX_4',
+            onEachFeature: pop_220kvtransmission_MAX_4,
+            style: style_220kvtransmission_MAX_4_0,
+        });
+        bounds_group.addLayer(layer_220kvtransmission_MAX_4);
+        map.addLayer(layer_220kvtransmission_MAX_4);
+        function pop_132kvtransmission_MAX_5(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['ENTITY'] !== null ? Autolinker.link(String(feature.properties['ENTITY'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['HANDLE'] !== null ? Autolinker.link(String(feature.properties['HANDLE'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['LAYER'] !== null ? Autolinker.link(String(feature.properties['LAYER'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['COLOR'] !== null ? Autolinker.link(String(feature.properties['COLOR'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['LINETYPE'] !== null ? Autolinker.link(String(feature.properties['LINETYPE'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['ELEVATION'] !== null ? Autolinker.link(String(feature.properties['ELEVATION'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['THICKNESS'] !== null ? Autolinker.link(String(feature.properties['THICKNESS'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['TEXT'] !== null ? Autolinker.link(String(feature.properties['TEXT'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_132kvtransmission_MAX_5_0() {
+            return {
+                pane: 'pane_132kvtransmission_MAX_5',
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 1.0,
+                fillOpacity: 0,
+            }
+        }
+        map.createPane('pane_132kvtransmission_MAX_5');
+        map.getPane('pane_132kvtransmission_MAX_5').style.zIndex = 405;
+        map.getPane('pane_132kvtransmission_MAX_5').style['mix-blend-mode'] = 'normal';
+        var layer_132kvtransmission_MAX_5 = new L.geoJson(json_132kvtransmission_MAX_5, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_132kvtransmission_MAX_5',
+            onEachFeature: pop_132kvtransmission_MAX_5,
+            style: style_132kvtransmission_MAX_5_0,
+        });
+        bounds_group.addLayer(layer_132kvtransmission_MAX_5);
+        map.addLayer(layer_132kvtransmission_MAX_5);
+        function pop_Tullow_Pipeline_6(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['id'] !== null ? Autolinker.link(String(feature.properties['id'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Tullow_Pipeline_6_0() {
+            return {
+                pane: 'pane_Tullow_Pipeline_6',
+                opacity: 1,
+                color: 'rgba(243,166,178,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 3.0,
+                fillOpacity: 0,
+            }
+        }
+        map.createPane('pane_Tullow_Pipeline_6');
+        map.getPane('pane_Tullow_Pipeline_6').style.zIndex = 406;
+        map.getPane('pane_Tullow_Pipeline_6').style['mix-blend-mode'] = 'normal';
+        var layer_Tullow_Pipeline_6 = new L.geoJson(json_Tullow_Pipeline_6, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Tullow_Pipeline_6',
+            onEachFeature: pop_Tullow_Pipeline_6,
+            style: style_Tullow_Pipeline_6_0,
+        });
+        bounds_group.addLayer(layer_Tullow_Pipeline_6);
+        map.addLayer(layer_Tullow_Pipeline_6);
+        function pop_KETRACO_SUBSTATIONS_7(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['OBJECTID'] !== null ? Autolinker.link(String(feature.properties['OBJECTID'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['NAME'] !== null ? Autolinker.link(String(feature.properties['NAME'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Substation'] !== null ? Autolinker.link(String(feature.properties['Substation'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['VOLTAGE'] !== null ? Autolinker.link(String(feature.properties['VOLTAGE'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['COMM_DATE_'] !== null ? Autolinker.link(String(feature.properties['COMM_DATE_'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['SUB_NAME'] !== null ? Autolinker.link(String(feature.properties['SUB_NAME'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_KETRACO_SUBSTATIONS_7_0() {
+            return {
+                pane: 'pane_KETRACO_SUBSTATIONS_7',
+                shape: 'square',
+                radius: 3.0,
+                opacity: 1,
+                color: 'rgba(255,255,255,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,0,0,1.0)',
+            }
+        }
+        map.createPane('pane_KETRACO_SUBSTATIONS_7');
+        map.getPane('pane_KETRACO_SUBSTATIONS_7').style.zIndex = 407;
+        map.getPane('pane_KETRACO_SUBSTATIONS_7').style['mix-blend-mode'] = 'normal';
+        var layer_KETRACO_SUBSTATIONS_7 = new L.geoJson(json_KETRACO_SUBSTATIONS_7, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_KETRACO_SUBSTATIONS_7',
+            onEachFeature: pop_KETRACO_SUBSTATIONS_7,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.shapeMarker(latlng, style_KETRACO_SUBSTATIONS_7_0(feature));
+            },
+        });
+        var cluster_KETRACO_SUBSTATIONS_7 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_KETRACO_SUBSTATIONS_7.addLayer(layer_KETRACO_SUBSTATIONS_7);
+
+        bounds_group.addLayer(layer_KETRACO_SUBSTATIONS_7);
+        cluster_KETRACO_SUBSTATIONS_7.addTo(map);
+        function pop_PowerInput_AGI_8(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Name'] !== null ? Autolinker.link(String(feature.properties['Name'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['descriptio'] !== null ? Autolinker.link(String(feature.properties['descriptio'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['timestamp'] !== null ? Autolinker.link(String(feature.properties['timestamp'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['begin'] !== null ? Autolinker.link(String(feature.properties['begin'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['end'] !== null ? Autolinker.link(String(feature.properties['end'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['altitudeMo'] !== null ? Autolinker.link(String(feature.properties['altitudeMo'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['tessellate'] !== null ? Autolinker.link(String(feature.properties['tessellate'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['extrude'] !== null ? Autolinker.link(String(feature.properties['extrude'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['visibility'] !== null ? Autolinker.link(String(feature.properties['visibility'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['drawOrder'] !== null ? Autolinker.link(String(feature.properties['drawOrder'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['icon'] !== null ? Autolinker.link(String(feature.properties['icon'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['snippet'] !== null ? Autolinker.link(String(feature.properties['snippet'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_PowerInput_AGI_8_0() {
+            return {
+                pane: 'pane_PowerInput_AGI_8',
+                radius: 5.0,
+                opacity: 1,
+                color: 'rgba(246,9,9,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(248,49,4,1.0)',
+            }
+        }
+        map.createPane('pane_PowerInput_AGI_8');
+        map.getPane('pane_PowerInput_AGI_8').style.zIndex = 408;
+        map.getPane('pane_PowerInput_AGI_8').style['mix-blend-mode'] = 'normal';
+        var layer_PowerInput_AGI_8 = new L.geoJson(json_PowerInput_AGI_8, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_PowerInput_AGI_8',
+            onEachFeature: pop_PowerInput_AGI_8,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.shapeMarker(latlng, style_PowerInput_AGI_8_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_PowerInput_AGI_8);
+        map.addLayer(layer_PowerInput_AGI_8);
+        var baseMaps = {};
+        L.control.layers(baseMaps,{'<img src="legend/PowerInput_AGI_8.png" /> PowerInput_AGI': layer_PowerInput_AGI_8,'<img src="legend/KETRACO_SUBSTATIONS_7.png" /> KETRACO_SUBSTATIONS': cluster_KETRACO_SUBSTATIONS_7,'<img src="legend/Tullow_Pipeline_6.png" /> Tullow_Pipeline': layer_Tullow_Pipeline_6,'<img src="legend/132kvtransmission_MAX_5.png" /> 132kvtransmission_MAX': layer_132kvtransmission_MAX_5,'<img src="legend/220kvtransmission_MAX_4.png" /> 220kvtransmission_MAX': layer_220kvtransmission_MAX_4,'KETRACO_LINES<br /><table><tr><td style="text-align: center;"><img src="legend/KETRACO_LINES_3_132kV0.png" /></td><td>132kV</td></tr><tr><td style="text-align: center;"><img src="legend/KETRACO_LINES_3_220kV1.png" /></td><td>220kV</td></tr><tr><td style="text-align: center;"><img src="legend/KETRACO_LINES_3_400kV2.png" /></td><td>400kV</td></tr><tr><td style="text-align: center;"><img src="legend/KETRACO_LINES_3_500HVDC3.png" /></td><td>500HVDC</td></tr></table>': layer_KETRACO_LINES_3,'<img src="legend/500MLAPSETCORRIDOR_2.png" /> 500M LAPSET CORRIDOR': layer_500MLAPSETCORRIDOR_2,'<img src="legend/KENYA_1.png" /> KENYA': layer_KENYA_1,"OpenTopoMap": overlay_OpenTopoMap_0,}).addTo(map);
+        setBounds();
+        var i = 0;
+        layer_KETRACO_SUBSTATIONS_7.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['SUB_NAME'] !== null?String('<div style="color: #000000; font-size: 6pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['SUB_NAME']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_KETRACO_SUBSTATIONS_7'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        var i = 0;
+        layer_PowerInput_AGI_8.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['Name'] !== null?String('<div style="color: #fc1616; font-size: 5pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Name']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_PowerInput_AGI_8'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        resetLabels([layer_KETRACOSUBSTATIONS_7,layer_PowerInputAGI_8]);
+        map.on("zoomend", function(){
+            resetLabels([layer_KETRACOSUBSTATIONS_7,layer_PowerInputAGI_8]);
+        });
+        map.on("layeradd", function(){
+            resetLabels([layer_KETRACOSUBSTATIONS_7,layer_PowerInputAGI_8]);
+        });
+        map.on("layerremove", function(){
+            resetLabels([layer_KETRACOSUBSTATIONS_7,layer_PowerInputAGI_8]);
+        });
+        </script>
+    </body>
+</html>
