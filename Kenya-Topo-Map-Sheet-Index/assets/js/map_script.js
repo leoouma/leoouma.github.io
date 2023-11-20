@@ -84,7 +84,7 @@ info.onAdd = function (map) {
 };
 
 info.update = function (props) {
-    this._div.innerHTML = '<h4>Reference Index Details</h4>' +  (props ?
+    this._div.innerHTML = '<h4>Sheet Index Details</h4>' +  (props ?
         '<b>' + props.Sheet_no + '   '+'</b>' + props.Sheet_name +'<b><br />'+ props.Sheet_no_a +'</b><br />'+ '<b>'+ props.Utm_Zone +'</b><br />'
         : 'Hover over a box');
 };
